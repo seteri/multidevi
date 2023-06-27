@@ -8,10 +8,5 @@ module.exports = {
             },
         },
     },
-    variants: {
-        extend: {
-            rotate: ['group-hover'],
-        },
-    },
     plugins: [],
 };
