@@ -7,7 +7,7 @@ const {contactInputs} = contacts()
 <template>
   <form class="flex items-center my-10 justify-center">
     <div class="bg-white rounded-xl shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]  max-w-screen-lg	 w-11/12 flex flex-col md:items-start items-center	md:p-10 p-7 ">
-      <p class="text-[#6967CE] text-sm">READY TO GET STARTED?</p>
+      <p class="text-[#6967CE]  text-sm">READY TO GET STARTED?</p>
       <p class="text-[#25344F] text-3xl font-medium mb-5">Let’s Grow Together.</p>
       <div class="flex items-center w-full flex-col md:gap-3 justify-center">
         <div class="md:grid grid-cols-2 w-full gap-3 ">

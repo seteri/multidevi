@@ -7,7 +7,6 @@ import SplidePart from "@/components/homePageComponents/splidePart.vue";
 import RecentProjects from "@/components/universalComponents/recentProjects.vue";
 import ContactForm from "@/components/universalComponents/contactForm.vue";
 </script>
-
 <template>
 <main-layout>
   <section class=" bg-[#6967CE] py-16  flex font-[arial] items-center relative flex-col  justify-center">
@@ -21,8 +20,6 @@ import ContactForm from "@/components/universalComponents/contactForm.vue";
       <img class="absolute md:flex hidden w-3/12		 h-full right-0 top-0" src="../assets/images/customWebsites.png" alt="">
     </div>
   </section>
-
-
   <tech-we-use>
     <div class="flex mb-10 md:flex-row flex-col">
       <div class="md:w-1/2 pt-28 md:mb-0 mb-5 md:px-8 px-5">
@@ -49,15 +46,9 @@ import ContactForm from "@/components/universalComponents/contactForm.vue";
       </div>
     </div>
   </tech-we-use>
-
-
   <SplidePart/>
   <RecentProjects/>
   <ContactForm class="my-16"/>
 
 </main-layout>
 </template>
-
-<style scoped>
-
-</style>

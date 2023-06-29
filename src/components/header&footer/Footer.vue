@@ -16,7 +16,7 @@ const getIconComponent = (company) => {
 };
 </script>
 <template>
-  <footer class="bg-[#0B0B0B] text-[#EEF8FF] items-center  md:py-20 pt-10   flex-col flex">
+  <footer class="bg-[#0B0B0B] text-[#EEF8FF] items-center   md:pt-20 pt-10   flex-col flex">
     <div class="max-w-6xl text-sm md:text-base w-11/12" >
       <div class="flex  justify-between md:mb-20 mb-10 md:flex-row flex-col  ">
         <div class="gap-5 mb-5  flex flex-col ">

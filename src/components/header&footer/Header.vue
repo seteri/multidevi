@@ -16,7 +16,7 @@ const { navbarComponents, dropdownIndex, show, hide, dropDownVisible } = UseNavi
         <router-link class="flex items-center " :to="component.to">{{ component.name }}
           <dropdown-arrow v-if="index === dropdownIndex" class="dropdown-arrow ml-2 z-50 transform transition duration-200 group-hover:rotate-180"/>
         </router-link>
-        <div class="absolute text-black flex flex-col items-center justify-center  pt-10 " v-if="index === dropdownIndex && dropDownVisible"><div class="bg-white rounded-2xl py-10 px-5">text for dropdown</div></div>
+        <div class=" text-black absolute z-50 flex flex-col items-center justify-center  pt-10 " v-if="index === dropdownIndex && dropDownVisible"><div class="bg-white rounded-2xl py-10 px-5">text for dropdown</div></div>
       </p>
       </ul>
     </div>
